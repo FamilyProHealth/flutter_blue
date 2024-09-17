@@ -54,7 +54,7 @@ class BluetoothOffScreen extends StatelessWidget {
               'Bluetooth Adapter is ${state != null ? state.toString().substring(15) : 'not available'}.',
               style: Theme.of(context)
                   .primaryTextTheme
-                  .subhead
+                  .titleMedium
                   ?.copyWith(color: Colors.white),
             ),
           ],
@@ -233,7 +233,7 @@ class DeviceScreen extends StatelessWidget {
                     text,
                     style: Theme.of(context)
                         .primaryTextTheme
-                        .button
+                        .labelLarge
                         ?.copyWith(color: Colors.white),
                   ));
             },
